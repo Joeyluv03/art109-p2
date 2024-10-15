@@ -48,8 +48,9 @@ main {
 
 #text-1 {
    font-size: 48px;
-   margin: 0 auto;
+   margin: 0.5vw auto;
    color: rgb(171, 122, 250);
+
 }
 
 .hidden {
