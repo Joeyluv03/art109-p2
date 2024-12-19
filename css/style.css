@@ -22,6 +22,11 @@ html {
 html,
 body {
    height: 100%;
+   background: #eaddf2;
+   margin: 0;
+   background-size: cover;
+   display: flex;
+   flex-direction: column;
 }
 
 
@@ -33,6 +38,10 @@ body {
 
 }
 
+.body .content-wrapper {
+   flex: 1 0 auto;
+}
+
 /* header {
     padding: 50px;
     background-color: rgb(222, 236, 248);
@@ -41,7 +50,7 @@ body {
 
 main {
    text-align: center;
-   padding: 20px;
+   padding: 10px;
    font-family: "Shadows Into Light", cursive;
 
 }
@@ -51,6 +60,14 @@ main {
    margin: 0.5vw auto;
    color: rgb(171, 122, 250);
 
+}
+
+#eyes {
+   display: block;
+   margin-left: auto;
+   margin-right: auto;
+   margin-top: 2px;
+   z-index: -1;
 }
 
 .hidden {
